@@ -1,6 +1,6 @@
 h1. Some useful Ruby scripts
 
-h2. @textile2html.rb@
+h2. @textile2html@
 
 Converts files in textile-format to HTML
 
@@ -9,10 +9,10 @@ bq.
 # and the RedCloth gem (@gem install redcloth@)
 # Call this file
 
-h2. @build_icon_list.rb@
+h2. @build_icon_list@
 
-bq. Generates a HTML-file which displays all icons in a directory (and sub-directories)
+Generates a HTML-file which displays all icons in a directory (and sub-directories)
 
-h2. @image_converter.rb@
+h2. @image_converter@
 
-bq. Uses ImageMagick to convert e.g. PNG-files to GIF-files
+Uses ImageMagick to convert e.g. PNG-files to GIF-files

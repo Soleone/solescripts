@@ -6,11 +6,13 @@ def is_png(f)
   return f[-4..-1] == ".png"
 end
 
-BASE_PATH = "d:\\code\\workspaces\\rails\\linklist\\public\\images\\icons\\"
+BASE_PATH = ARGV[0] || '.'
 dir = Dir.new(BASE_PATH)
 
-dir.each do |file|
+Dir["#{BASE_PATH}/**"].each do |file|
   if is_png(file)
-    puts system("convert", BASE_PATH + file, BASE_PATH + "icons_gif\\" + file_name(file) + ".gif")
+    cmd = "convert " + file + ' ' + File.join(file_name(file) + ".gif")
+  puts cmd
+  puts system(cmd) ? "Converted" : "Error"
   end
 end

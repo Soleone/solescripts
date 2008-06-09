@@ -1,0 +1,5 @@
+h2. Some useful Ruby scripts
+
+* @textile2html.rb@ converts files in textile-format to HTML-files
+* @build_icon_list.rb@ generates a HTML-file which displays all icons in a directory (and sub-directories)
+* @image_converter.rb@ uses ImageMagick to convert e.g. PNG-files to GIF-files

@@ -4,7 +4,7 @@ h2. @textile2html.rb@
 
 Converts files in textile-format to HTML
 
-# Just install Ruby 
+bq. # Just install Ruby 
 # and the RedCloth gem (@gem install redcloth@)
 # Call this file
 

@@ -1,5 +1,11 @@
 h2. Some useful Ruby scripts
 
-* @textile2html.rb@ converts files in textile-format to HTML-files
-* @build_icon_list.rb@ generates a HTML-file which displays all icons in a directory (and sub-directories)
-* @image_converter.rb@ uses ImageMagick to convert e.g. PNG-files to GIF-files
+h3. @textile2html.rb@
+Converts files in textile-format to HTML
+bq. Just install Ruby and the RedCloth gem (@gem install redcloth@ and call this file)
+
+h3. @build_icon_list.rb@
+bq. Generates a HTML-file which displays all icons in a directory (and sub-directories)
+
+h3.@image_converter.rb@
+bq. Uses ImageMagick to convert e.g. PNG-files to GIF-files

@@ -9,6 +9,10 @@ bq.
 # and the RedCloth gem (@gem install redcloth@)
 # Call this file
 
+h2. @textile2plain@
+
+Converts files in textile-format to Plain text (useful for e.g. README.textile from Github)
+
 h2. @build_icon_list@
 
 Generates a HTML-file which displays all icons in a directory (and sub-directories)
